@@ -5,6 +5,7 @@ import Categories from '../components/Categories'
 import ProductCard from '../components/ProductCard'
 import PopularBrands from '../components/PopularBrands'
 import WhyChooseUs from '../components/WhyChooseUs'
+import Contact from './Contact.jsx'
 
 
 export default function Home() {
@@ -33,6 +34,8 @@ export default function Home() {
                <WhyChooseUs />
                 <p className="mt-2 text-gray-300">Local store · Genuine sourcing · Check availability before visiting — contact on WhatsApp or call.</p>
             </section>
+
+            <Contact />
         </div >
     )
 }
